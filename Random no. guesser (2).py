@@ -8,10 +8,7 @@ while trys<5:
     print("Now try guessing")
     nos = int(input())
     trys += 1
-    if nos > i:
-        print("You guessed too high")
-    if nos < i:
-        print("You guessed too low")
+    
     if nos == i:
         break
 if nos == i:
