@@ -25,14 +25,11 @@ while trys<5:
         print("You guessed too low")
     
     if nos == i:
+        print("You guessed the no. right. The no. was:",nos)
+        print("You took",trys,"trys")
         break
+    if trys==4 and not nos == i:
+        print("you are failed")
 
-        if nos == i:
     
-    print("You guessed the no. right. The no. was:",nos)
-    
-    print("You took",trys,"trys")
-
-    if nos != i:
-    print("You Loose the no. was:",nos)
 
